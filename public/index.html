@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOpro</title>
+    <link rel="stylesheet" href="../css/appstyles.css">
+    <script src="../scr/js/addtodo.js"></script>
+    <script src="../scr/js/viewtodo.js"></script>
+    <script src="../scr/js/searchtodo.js"></script>
+</head>
+<body>
+    <div class="app"> 
+        <div class="header">
+            <h2>My TODOpro</h2>
+            <p>Here to help you plan the day</p>
+            <form class="search-todo">
+                <input type="text" class="search" placeholder="search" ></input>
+            </form>
+        </div>
+        <div class="content-plate">
+            <div class="introsection">
+                <span class="subtitle"> Todozz</span>
+            </div>
+            <ul>
+                 <!--this is where todos are added -->
+            </ul>
+        <span class="editboard">
+            <form class="editor">
+                <div>
+                    <span class="delete" >Delete</span><span class="edit">Edit</span>
+                    <span class="save" >Save</span><span class="cancel">Cancel</span>
+                </div>
+                <label for="Title">Title</label><input type="text" name="tite" class="todotitle" disabled>
+                <div>
+                 <label for="Due date">Date&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label><input type="text" name="date" class="tdysdate" disabled >
+                </div>
+            </form>
+        </span>
+        <form class="add-todo">
+            <span>
+                <input type="text" class="addtodo" placeholder="add Todo" autofocus>
+            </span>
+            <button type="submit">Add</button>
+        </form>
+        </div>
+    </div>
+</body>
+<script>
+
+</script>
+</html>
